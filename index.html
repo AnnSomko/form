@@ -12,22 +12,24 @@
 </head>
 
 <body>
-    <form action="">
+    <form novalidate>
         <h3>Заповніть форму</h3>
         <div class="form__group">
             <label for="name">Ім'я</label>
-            <input class="form__field" type="text" value="Your name">
+            <input class="form__field" type="text" required>
         </div>
         <div class="form__group">
             <label for="name">E-mail</label>
-            <input class="form__field" type="text" value="Your name">
+            <input class="form__field" type="email" required>
         </div>
-        <div class="form__group">
+        <div class="form__group last">
             <label for="name">Пароль</label>
-            <input class="form__field" type="text" value="Your name">
+            <input class="form__field" type="password" required>
         </div>
+        <span class="error-message">Одне з полів вказано не вірно</span>
         <button class="form-btn">Увійти</button>
     </form>
+    <script src="script.js"></script>
 </body>
 
 </html>

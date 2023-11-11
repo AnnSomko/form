@@ -33,6 +33,10 @@ h3 {
   margin-bottom: 30px;
 }
 
+.last {
+  margin-bottom: 0;
+}
+
 label {
   font-size: 16px;
   font-weight: 500;
@@ -62,4 +66,22 @@ label {
   padding: 20px 0;
   margin-top: 60px;
   font-family: Montserrat;
+}
+
+.error {
+  outline: 2.5px solid #ff0606;
+}
+
+.error-message {
+  color: #ff0606;
+  font-size: 16px;
+  text-align: center;
+  display: none;
+  height: 0;
+  position: relative;
+  top: 20px;
+}
+
+.show {
+  display: block;
 }
